@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "/root/professor_y_bot/bot.py", line 13, in <module>
+    bot = Bot(token=config.BOT_TOKEN)
+  File "/root/professor_y_bot/venv/lib/python3.10/site-packages/aiogram/client/bot.py", line 286, in __init__
+    validate_token(token)
+  File "/root/professor_y_bot/venv/lib/python3.10/site-packages/aiogram/utils/token.py", line 17, in validate_token
+    raise TokenValidationError(
+aiogram.utils.token.TokenValidationError: Token is invalid! It must be 'str' type instead of <class 'NoneType'> type.
